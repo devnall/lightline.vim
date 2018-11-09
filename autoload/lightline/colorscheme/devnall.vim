@@ -31,8 +31,8 @@ let s:p.normal.middle = [ [ s:white, s:darkGray ] ]
 let s:p.normal.error = [ [ s:red, s:darkGray ] ]
 let s:p.normal.warning = [ [ s:orange, s:darkGray ] ]
 
-let s:p.tabline.left = [ [ s:white, s:blue ] ]
-let s:p.tabline.tabsel = [ [ s:white, s:gray ] ]
+let s:p.tabline.left = [ [ s:white, s:gray ] ]
+let s:p.tabline.tabsel = [ [ s:white, s:blue ] ]
 let s:p.tabline.middle = [ [ s:white, s:darkGray ] ]
 
 let s:p.normal.right = copy(s:p.normal.left)
